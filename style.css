@@ -1,0 +1,308 @@
+The code
+Lets start with the complete CSS stylesheet:
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*...................................Main Code Index........................................*/
+.wrapper{
+	height: 768px;
+	width: 1366px;
+	/*...background-color: red;...*/
+}
+header{
+	height: 100px;
+	width: 1366px;
+	background-color: black;
+}
+section{
+	
+	height: 558px;
+	width: 1366px;
+	background-color: gray;
+}
+footer{
+	height: 70px;
+	width: 1366px;
+	background-color: black;
+}
+
+
+.logo{
+	resize: horizontal;
+	float: left;
+	padding-left: 20px;
+    width: 5px;
+	height: 5px;
+}
+.logo h1 {
+	padding-left: 200px;
+	text-align: left;
+	line-height: 0px;
+	font-size: 25px;
+	display:block;
+	align-self:baseline;
+	color: white;
+	width: 750px;
+	height: 30px;
+}
+
+li a{
+	color: white;
+	text-decoration: none;
+}
+
+/*.nav{
+	float: right;
+	word-spacing: 30px;
+	line-height: 0px;
+	padding: 50px;
+}.*/
+
+nav li{
+	display: inline-block;
+}
+section .sec_imgstd{
+	background-image:url(images/18.jpg);
+	background-color: gray;
+	height: 600px;
+	width: 1300px;
+	}
+
+section .sec_img{
+	background-image:url(images/18.jpg);
+	background-color: gray;
+	height: 600px;
+	width: 1300px;
+	}
+
+.box{
+
+	float: inherit;
+	margin: 20px auto;
+	height: 300px;
+	width: 400px;
+	color: white;
+	background-color: red;
+	word-spacing: inherit;
+	padding: auto 5px;
+	opacity: .5;
+	
+}
+.box11{
+	float: inherit;
+	margin: 20px auto;
+	height: 300px;
+	width: 400px;
+	color: white;
+	background-color: red;
+	word-spacing: inherit;
+	padding: auto 5px;
+	opacity: .5;
+}
+/*--------------------------------Student Login Page -------------------*/
+
+.box1{
+
+	float: inherit;
+	margin: 20px auto;
+	height: 350px;
+	width: 350px;
+	color: white;
+	background-color: red;
+	word-spacing: inherit;
+	padding: auto 5px;
+	opacity: .5;
+	
+}
+.log_img{
+	/*....background-image:url(images/76.jpg);...*/
+	background-color:#F1F1F1;
+	margin: 0px auto;
+	padding: auto 0px;
+	height:650px;
+	width: 1300px;
+	
+	
+	
+	
+	
+			
+}
+
+
+
+form .login{
+	margin: auto 30px;
+}
+
+
+
+input{
+	height: 30px;
+	width: 200px;
+}
+
+.alert{
+	background-color: red;
+}
+/*..............................User Registratioin Form......................................*/
+
+.box2{
+
+	float: inherit;
+	margin: 10px auto;
+	height: 500px;
+	width: 400px;
+	color: white;
+	
+	word-spacing: inherit;
+	padding: auto 5px;
+	opacity: .7;
+	
+}
+section .reg_img{
+	padding-left: 20px;
+	padding-top: 20px;
+	height:70px;
+	width: 1300px;
+}
+
+form .registration{
+	padding-left: 20px auto;
+	margin: auto 30px;
+	height: 35px;
+	width: 230px;
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
